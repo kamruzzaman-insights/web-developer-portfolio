@@ -20,7 +20,9 @@
 .dark-3 {
     color: #757575;
 }
-
+.primary-background-color {
+    background-color: #FFF8F3;
+}
 .btn-primary {
     background-color: #FD6E0A;
     color: white;
@@ -100,4 +102,31 @@ nav li a {
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 30px;
+}
+
+/* about section */
+.about-section-parent {
+    width: 1140px;
+    margin: auto;
+    padding: 125px 150px;
+}
+.about-section {
+    border: 1px solid #757575;
+    text-align: center;
+    background-color: white;
+}
+.about-me-header {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 800;
+}
+.about-me-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
+.about-me-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
