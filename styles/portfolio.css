@@ -146,7 +146,7 @@ nav li a {
 }
 
 /* about section */
-.about-section-parrent {
+.about-section-parent {
     padding: 125px 150px;
     margin-bottom: 130px;
 }
@@ -191,7 +191,34 @@ nav li a {
 .resume-qualifications-parent {
     display: flex;
     gap: 24px;
+    margin-bottom: 50px;
 }
 .resume-section-title {
     margin: 140px 0px 100px 0px;
+}
+.footer {
+    
+    margin-top: 130px;
+    padding: 130px 0px;
+    background-color: #FFF8F3;
+}
+.footer-element-parent {
+    display: flex;
+    max-width: 1140px;
+    gap: 100px;
+    margin: auto;
+}
+.footer-element-parent-column {
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
 }
